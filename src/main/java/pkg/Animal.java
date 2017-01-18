@@ -10,12 +10,6 @@ public class Animal {
 
     private final Sound sound;
 
-//    @Autowired
-//    public Animal(Sound sound) {
-//        System.out.println("Constructing ANIMAL bean");
-//        this.sound = sound;
-//    }
-
     public String makeSound() {
         return sound.make();
     }
